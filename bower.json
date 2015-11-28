@@ -6,6 +6,7 @@
     "grpp <nat_hanlaw@hotmail.com>"
   ],
   "description": "",
+  "directory": "src/thirdParty",
   "main": "",
   "moduleType": [],
   "license": "MIT",
@@ -16,9 +17,5 @@
     "test",
     "tests"
   ],
-  "dependencies": {
-    "polymer": "Polymer/polymer#1.2.0",
-    "iron-elements": "PolymerElements/iron-elements#~1.0.4",
-    "paper-elements": "PolymerElements/paper-elements#~1.0.5"
-  }
+  "dependencies": {}
 }

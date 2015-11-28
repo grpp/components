@@ -1,0 +1,18 @@
+<link rel="import" href="/../../thirdParty/bower_components/polymer/polymer.html">
+<link rel="import" href="/../../thirdParty/bower_components/iron-pages/iron-pages.html">
+<link rel="import" href="/../../components/custom-contact-page/custom-contact-page.html">
+<link rel="import" href="/../../components/custom-about-page/custom-about-page.html">
+
+<dom-module id="custom-static-pages">
+	<template>
+		<style>
+
+		</style>
+		<iron-pages selected={{selected}}>
+			<custom-about-page></custom-about-page>
+			<custom-contact-page></custom-contact-page>
+		</iron-pages>
+	</template>
+
+	<script src="custom-static-pages.js"></script>
+</dom-module>

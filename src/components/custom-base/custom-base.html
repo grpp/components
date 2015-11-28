@@ -1,0 +1,17 @@
+<link rel="import" href="/../../thirdParty/bower_components/polymer/polymer.html">
+<link rel="import" href="/../../thirdParty/bower_components/paper-drawer-panel/paper-drawer-panel.html">
+<link rel="import" href="/../../components/custom-navigation-bar/custom-navigation-bar.html">
+<link rel="import" href="/../../components/custom-side-navigation/custom-side-navigation.html">
+<link rel="import" href="/../../thirdParty/bower_components/paper-drawer-panel/paper-drawer-panel.html">
+<link rel="import" href="/../../thirdParty/bower_components/iron-flex-layout/iron-flex-layout.html">
+
+<dom-module id="custom-base">
+	<template>
+		<paper-drawer-panel id="navigationPanel">
+			<custom-navigation-bar main></custom-navigation-bar>
+			<custom-side-navigation drawer></custom-side-navigation>
+		</paper-drawer-panel>
+	</template>
+
+	<script src="custom-base.js"></script>
+</dom-module>

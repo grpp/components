@@ -1,4 +1,4 @@
-/bower_components
+/src/thirdParty
 /node_modules
 /webcomponents.sublime-project
 /webcomponents.sublime-workspace

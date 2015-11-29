@@ -5,6 +5,10 @@ Polymer({
 			type: Number,
 			notify:true,
 			observer: "_selectedChanged"
+		},
+		isMenuActive: {
+			type: Boolean,
+			notify: true,
 		}
 	},
 
@@ -13,8 +17,10 @@ Polymer({
 	},
 
 	ready: function(){
+
 	},
 
 	_selectedChanged: function(newValue, oldValue){
-	}
+
+	},
 });

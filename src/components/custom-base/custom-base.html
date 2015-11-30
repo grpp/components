@@ -32,8 +32,8 @@
 
 	<template>
 		<paper-drawer-panel id="navigationPanel" drawer-width="200px">
-			<custom-navigation-bar main></custom-navigation-bar>
-			<custom-side-navigation drawer></custom-side-navigation>
+			<custom-navigation-bar id="navigationToolBar" is-menu-active={{isMenuActive}} main></custom-navigation-bar>
+			<custom-side-navigation id="sideNavigationBar" drawer></custom-side-navigation>
 		</paper-drawer-panel>
 	</template>
 

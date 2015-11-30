@@ -6,8 +6,32 @@
 <link rel="import" href="/../../thirdParty/bower_components/iron-flex-layout/iron-flex-layout.html">
 
 <dom-module id="custom-base">
+	<style>
+		paper-drawer-panel {
+			--paper-drawer-panel-main-container: {
+				width: 100%;
+				height: 100%;
+			};
+
+			--paper-drawer-panel-left-drawer-container: {
+				height: 100%;
+			};
+		}
+
+		paper-drawer-panel {
+			--custom-toolbar-shadows: {
+				box-shadow: none;
+			};
+		}
+
+		#drawer {
+			width: 30px;
+		}
+
+	</style>
+
 	<template>
-		<paper-drawer-panel id="navigationPanel">
+		<paper-drawer-panel id="navigationPanel" drawer-width="200px">
 			<custom-navigation-bar main></custom-navigation-bar>
 			<custom-side-navigation drawer></custom-side-navigation>
 		</paper-drawer-panel>

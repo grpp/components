@@ -8,18 +8,36 @@
 <link rel="import" href="/../../thirdParty/bower_components/paper-item/paper-item.html">
 
 <dom-module id="custom-side-navigation">
+	
+	<style>
+		paper-header-panel {
+			--paper-header-panel-shadow: {
+	      		@apply(--custom-toolbar-shadows);
+	      	};
+		}
+
+		#navigationMenu.content {
+			border-right: 1px solid rgb(122, 122, 122);
+			background-color: #EEE;
+		}
+
+		paper-menu {
+			--paper-menu-background-color: #EEE;
+		}
+	</style>
 
 	<template>
 		<paper-header-panel>
 			<paper-toolbar>
 				<div>Not</div>				
 			</paper-toolbar>
-			<paper-menu>
-				<paper-item>Home</paper-item>
-				<paper-item>About</paper-item>
-				<paper-item>Contact</paper-item>
-			</paper-menu>
-			<div> Copyright </div>
+			<div id="navigationMenu" class="content fit">
+				<paper-menu>
+					<paper-item>Home</paper-item>
+					<paper-item>About</paper-item>
+					<paper-item>Contact</paper-item>
+				</paper-menu>
+			</div>
 		</paper-header-panel>
 	</template>
 

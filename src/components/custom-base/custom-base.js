@@ -3,6 +3,6 @@ Polymer({
 
 	ready: function(){
 		// Force narrow initially for larger
-		this.$.navigationPanel.forceNarrow = true;
+		//this.$.navigationPanel.forceNarrow = true;
 	}
 });
